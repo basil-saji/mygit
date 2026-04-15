@@ -19,24 +19,24 @@ cd $TMP_DIR
 # Download source files
 echo "Downloading source..."
 
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/main.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/add.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/commit.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/hash.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/init.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/object.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/utils.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/tree.c
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/audit.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/main.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/add.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/commit.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/hash.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/init.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/object.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/utils.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/tree.c
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/audit.c
 
 # Download headers
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/add.h
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/commit.h
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/hash.h
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/init.h
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/object.h
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/utils.h
-curl -sLO https://raw.githubusercontent.com/<username>/<repo>/main/tree.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/add.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/commit.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/hash.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/init.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/object.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/utils.h
+curl -sLO https://raw.githubusercontent.com/basil-saji/mygit/main/tree.h
 
 # Compile
 echo "Compiling..."
